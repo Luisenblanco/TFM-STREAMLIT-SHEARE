@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.sidebar.title("IV MASTER EN BIG DATA APLICADO AL SCOUTIG :⚽🥅")
-st.sidebar.image("Image\\sports.png", width=400)
+st.sidebar.image("Image/sports.png", width=400)
 
   # Corregido: Reemplazado "with" por "width"
 st.title("TFM CON STREAMLIT : LUISEN BLANCO ⚽🥅")
@@ -46,10 +46,10 @@ with info:
 
     # Contenido de la segunda columna
     with col2:
-         st.image("Image\\LUISEN.jpg", width=250)
+         st.image("Image/LUISEN.jpg", width=250)
 
     with col3:
-         st.image("Image\\SPORTING.png", width=300)
+         st.image("Image/SPORTING.png", width=300)
 
 
 st.markdown(
@@ -62,7 +62,7 @@ menu_options = st.expander("OBJETIVO :🎯")
 with menu_options:
     st.write("COMPARATIVA DE LOS 4 JUGADORES BUSCADOS CON **COTE**: 📊")
     st.write("👉 INTENTAREMOS DAR UN TOQUE MAS PROFESIONAL AL TFM")
-    st.image("Image\\sports.png", width=300)
+    st.image("Image/sports.png", width=300)
 
 st.markdown(
     """<div style="background-color:#0C4DEE;height:10px;border-radius:5px;"></div>""",
@@ -81,31 +81,31 @@ with menu_options:
     with col1:
         st.write("**COTE**")
         st.write("REAL SPORTING DE GIJON")
-        st.image("Image\\Cote.png", width=150)
+        st.image("Image/Cote.png", width=150)
 
     # Información del segundo jugador (D. van der Kust)
     with col2:
         st.write("**D. VAN DER KUST**")
         st.write("ESPARTA DE ROTERDAM")
-        st.image("Image\\Kust.png", width=250)
+        st.image("Image/Kust.png", width=250)
 
     # Información del tercer jugador (Pablo Perez)
     with col3:
         st.write("**PABLO PEREZ**")
         st.write("ATLETICO DE MADRID B")
-        st.image("Image\\Pablo.png", width=150)
+        st.image("Image/Pablo.png", width=150)
 
     # Información del cuarto jugador (Rafel Obrador)
     with col4:
         st.write("**RAFAEL OBRADOR**")
         st.write("REAL MADRID B")
-        st.image("Image\\Obrador.png", width=250)
+        st.image("Image/Obrador.png", width=250)
 
     # Información del quinto jugador (S. Laquidain)
     with col5:
         st.write("**S. LAQUIDAIN**")
         st.write("CA CENTRAL DE CORDOBA")
-        st.image("Image\\Laquidain.png", width=200)
+        st.image("Image/Laquidain.png", width=200)
 
 st.markdown(
     """<div style="background-color:#0C4DEE;height:10px;border-radius:5px;"></div>""",
@@ -122,37 +122,37 @@ with menu_options:
 
     # Imagen del primer recurso (Transfermarkt)
     with col1:
-        st.image("Image\\TRANSFERMARK.png", width=150)
+        st.image("Image/TRANSFERMARK.png", width=150)
 
     # Imagen del segundo recurso (Excel)
     with col2:
-        st.image("Image\\EXCEL.png", width=150)
+        st.image("Image/EXCEL.png", width=150)
 
     # Imagen del tercer recurso (Nacsport)
     with col3:
-        st.image("Image\\NACSPORT.png", width=200)
+        st.image("Image/NACSPORT.png", width=200)
 
     # Imagen del cuarto recurso (Wyscout)
     with col4:
-        st.image("Image\\WYSCOUT.png", width=150)
+        st.image("Image/WYSCOUT.png", width=150)
 
     # Imagen del quinto recurso (R)
     with col5:
-        st.image("Image\\R.png", width=100)
+        st.image("Image/R.png", width=100)
 
     # Imagen del sexto recurso (Tableau)
     with col6:
-        st.image("Image\\TABLEAU.png", width=150)
+        st.image("Image/TABLEAU.png", width=150)
 
     # Imagen del séptimo recurso (Python)
     with col7:
-        st.image("Image\\PYTHON.jpeg", width=100)
+        st.image("Image/PYTHON.jpeg", width=100)
 
     # Imagen del octavo recurso (Power BI)
     with col8:
-        st.image("Image\\POWER BI.png", width=150)
+        st.image("Image/POWER BI.png", width=150)
 
     # Imagen del noveno recurso (Mediacoach)
     with col9:
-        st.image("Image\\MEDIACOACH.png", width=150)
+        st.image("Image/MEDIACOACH.png", width=150)
   
